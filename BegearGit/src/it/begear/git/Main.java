@@ -7,8 +7,12 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		System.out.println("Marco");
 		
+=======
+		System.out.println("Leonardo ");
+>>>>>>> branch 'master' of https://github.com/DocenzaBegear/BegearGit.git
 		Scatola<Cereale> scatola1 = new Scatola<Cereale>(new Cereale());
 		Scatola<Mozzarella> scatola2 = new Scatola<Mozzarella>(new Mozzarella());
 		
@@ -18,6 +22,7 @@ public class Main {
 		boolean flag = true;
 		
 		do {
+		System.out.println("Gaetano!");
 		System.out.println("Inserisci un tipo di scatola: ");
 		System.out.println("C --> Cereali ");
 		System.out.println("M --> Mozzarelle ");
@@ -34,6 +39,7 @@ public class Main {
 		} while (flag);
 		
 		System.out.println(magazzino);
+		System.out.println("Diego");
 		
 		Macero macero = new Macero();
 		macero.maceraScatole(scatola1);
