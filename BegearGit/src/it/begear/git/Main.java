@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
 	
 	public static void main(String[] args) {
-		System.out.println("Leonardo");
+		System.out.println("Leonardo ");
 		Scatola<Cereale> scatola1 = new Scatola<Cereale>(new Cereale());
 		Scatola<Mozzarella> scatola2 = new Scatola<Mozzarella>(new Mozzarella());
 		
