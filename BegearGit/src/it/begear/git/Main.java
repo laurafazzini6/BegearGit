@@ -17,6 +17,7 @@ public class Main {
 		boolean flag = true;
 		
 		do {
+		System.out.println("Gaetano!");
 		System.out.println("Inserisci un tipo di scatola: ");
 		System.out.println("C --> Cereali ");
 		System.out.println("M --> Mozzarelle ");
