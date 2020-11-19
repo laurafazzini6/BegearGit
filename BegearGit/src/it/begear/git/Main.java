@@ -33,6 +33,7 @@ public class Main {
 		} while (flag);
 		
 		System.out.println(magazzino);
+		System.out.println("Diego");
 		
 		Macero macero = new Macero();
 		macero.maceraScatole(scatola1);
